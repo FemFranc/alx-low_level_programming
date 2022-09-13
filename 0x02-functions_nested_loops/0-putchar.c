@@ -1,18 +1,16 @@
 /*
  *
- *  * File: 0-holberton.c
+ *  * File: 0-putchar.c
  *
- *   * Auth: Brennan D Baraban
+ *   *
  *
- *    *
- *
- *     */
+ *    */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  *
- *  * main - Prints "Holberton" followed by a new line.
+ *  * main - Prints "putchar" followed by a new line.
  *
  *   *
  *
