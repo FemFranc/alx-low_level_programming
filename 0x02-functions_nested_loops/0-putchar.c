@@ -1,20 +1,12 @@
-/*
- *
- *  * File: 0-putchar.c
- *
- *   *
- *
- *    */
-
 #include "main.h"
 
 /**
  *
- *  * main - Prints "putchar" followed by a new line.
+ *  * main - Print "putchar" followed by a new line.
  *
- *   *
+ *   * Description: You are not allowed to include standard libraries.
  *
- *    * Return: Always 0.
+ *    * Return: 0
  *
  *     */
 
@@ -22,26 +14,26 @@ int main(void)
 
 {
 
-		_putchar('H');
+		char putchar[] = "putchar";
 
-			_putchar('o');
+			int i = 0;
 
-				_putchar('l');
 
-					_putchar('b');
 
-						_putchar('e');
+				while (putchar[i] != '\0')
 
-							_putchar('r');
+						{
 
-								_putchar('t');
+									_putchar(putchar[i]);
 
-									_putchar('o');
+											i++;
 
-										_putchar('n');
+												}
 
-											_putchar('\n');
+					_putchar('\n');
 
-												return (0);
+
+
+						return (0);
 
 }
